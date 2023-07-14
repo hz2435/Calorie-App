@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab03">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="9dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3aa8c1"
+            android:text="Personal Info and Goals:"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:text="Gender:" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:textColor="@color/black"
+                android:text="Age:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="24dp"
+                    android:textSize="12dp"
+                    android:text="M" />
+
+                <RadioButton
+                    android:id="@+id/rbF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="24dp"
+                    android:textSize="12dp"
+                    android:text="F" />
+
+                <RadioButton
+                    android:id="@+id/rbO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="24dp"
+                    android:textSize="12dp"
+                    android:text="Other" />
+            </RadioGroup>
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="4dp"
+                android:textSize="14dp"
+                android:paddingLeft="3dp"
+                android:text=""
+                android:id="@+id/tvAge"
+                android:background="@drawable/tvboarder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:text="Weight:" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:textColor="@color/black"
+                android:text="Weight Goal:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="4dp"
+                android:textSize="14dp"
+                android:paddingLeft="3dp"
+                android:text=""
+                android:id="@+id/tvWeight"
+                android:background="@drawable/tvboarder" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text=" Ib" />
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="56dp"
+                android:textSize="14dp"
+                android:paddingLeft="3dp"
+                android:text=""
+                android:id="@+id/tvWeightGoal"
+                android:background="@drawable/tvboarder"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text=" Ib" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="Activity:"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spActivity"
+            android:background="@drawable/tvboarder"
+            android:layout_marginLeft="5dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/activities"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/tvRecCalorie"
+                android:background="@drawable/tvboarder"
+                android:gravity="center_vertical" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCal"
+                android:layout_marginLeft="30dp"
+                android:text="Calculate Calorie"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="Daily Calorie Goal:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textSize="14dp"
+                android:paddingLeft="3dp"
+                android:id="@+id/tvCalorieGoal"
+                android:background="@drawable/tvboarder" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUpdate"
+                android:text="Save Goal"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTest"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+apple pie:308
+baby back ribs:248
+baklava:334
+beef carpaccio:240
+beef tarfare:341
+beet salad:50
+beignets:527
+bibimbap:560
+bread pudding:133
+breakfast burrito:351
+bruschetta:52
+caesar salad:200
+cannoli:248
+caprese salad:180
+carrot cake:120
+ceviche:173
+cheese plate:88
+cheesecake:372
+chicken curry:240
+chicken quesadilla:270
+chicken wings:247
+chocolate cake:295
+chocolate mousse:909
+churros:115
+clam chowder:154
+club sandwich:480
+crab cakes:126
+crème brulee:551
+croque madame:263
+cup cakes:277
+deviled eggs:80
+donuts:224
+dumplings:40
+edamame:110
+eggs benedict:553
+escargots:90
+falafel:283
+filet mignon:276
+fish and chips:448
+foie gras:60
+french fries:288
+french onion soup:91
+french toast:389
+fried calamari:149
+fried rice:228
+frozen yogurt:126
+garlic bread:186
+gnocchi:220
+greek salad:150
+grilled cheese sandwich:497
+grilled salmon:367
+guacamole:40
+gyoza:330
+hamburger:421
+hot and sour soup:91
+hot dog:269
+huevos rancheros:500
+hummus:26
+ice cream:194
+lasagna:310
+lobster bisque:350
+lobster roll sandwich:49
+macaroni and cheese:260
+macarons:130
+miso soup:547
+mussels:172
+nachos:480
+omelette:54
+onion rings:314
+oysters:199
+pad thai:940
+paella:345
+pancakes:255
+panna cotta:42
+peking duck:340
+pho:367
+pizza:384
+pork shop:176
+poutine:535
+prime rib:210
+pulled pork sandwich:140
+ramen:9
+ravioli:339
+red velvet cake:370
+risotto:174
+samosa:308
+sashimi:35
+scallops:100
+seaweed salad:130
+shrimp and grits:234
+spaghetti bolognese:352
+spaghetti carbonara:491
+spring rolls:199
+steak:379
+strawberry shortcake:45
+sushi:61
+tacos:304
+takoyaki:79
+tiramisu:492
+tuna tartare:128
+waffles:100
